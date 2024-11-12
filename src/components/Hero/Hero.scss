@@ -1,0 +1,35 @@
+.hero1{
+    background-color: lightgreen;
+}
+
+.hero2{
+background-color: lightcoral;
+
+}
+
+.hero3{
+    background-color: aqua;
+}
+
+.hero4{
+    background-color: gold;
+
+}
+.hero5{
+    background-color: chartreuse;
+}
+
+
+.hero{
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__title{
+        font-size: 35px;
+        letter-spacing: 2px;
+    }
+
+    
+}
